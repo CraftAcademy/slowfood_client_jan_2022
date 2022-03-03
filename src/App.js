@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 
 const App = () => {
   return (
     <>
-      <h1>Slowfood</h1>
+      <h1 data-cy="header">Slowfood</h1>
     </>
   );
-}
+};
 
 export default App;
