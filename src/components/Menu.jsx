@@ -14,19 +14,22 @@ const Menu = () => {
   }, []);
 
   return (
-    <div data-cy="product-list" style={{ display: "grid", gridTemplateColumns: 'auto auto auto' }}>
-      {products.map((product) => (
-        <div>
-          <div key={product.id}>
-            <h3>{product.name}</h3>
-            <p>{product.description}</p>
+    <>
+      <h2>Menu</h2>
+      <div data-cy="product-list">
+        {products.map((product) => (
+          <div style={{ display: "grid", gridTemplateColumns: "30vw 30vw" }}>
+            <div key={product.id}>
+              <h3>{product.name}</h3>
+              <p>{product.description}</p>
+            </div>
+            <div>
+              <p style={{ paddingTop: 5 + "%" }}>{product.price} kr</p>
+            </div>
           </div>
-          <div>
-            <p>{product.price} kr</p>
-          </div>
-        </div>
-      ))}
-    </div>
+        ))}
+      </div>
+    </>
   );
 };
 
