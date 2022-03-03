@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Pizza",
+      "price": 15,
+      "description": "The fantastic pizza made by the best pizza maker in the world",
+      "created_at": "2022-03-03T10:06:06.489Z",
+      "updated_at": "2022-03-03T10:06:06.489Z"
+    },
+    {
+      "id": 2,
+      "name": "Kebab",
+      "price": 15,
+      "description": "This kebab is the best kebab ever",
+      "created_at": "2022-03-03T10:06:06.491Z",
+      "updated_at": "2022-03-03T10:06:06.491Z"
+    },
+    {
+      "id": 3,
+      "name": "Hamburger",
+      "price": 25,
+      "description": "Hamburgers as good as the best hamburger in the world",
+      "created_at": "2022-03-03T10:06:06.492Z",
+      "updated_at": "2022-03-03T10:06:06.492Z"
+    }
+  ]
+}
