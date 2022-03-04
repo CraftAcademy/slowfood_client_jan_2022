@@ -17,7 +17,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "start:silent": "PORT=3001 BROWSER=none react-scripts start",
+    "start:silent": "PORT=3001 BROWSER=none react-app-rewired start",
     "cy:open": "cypress open",
     "cy:run": "cypress run",
     "cypress": "start-server-and-test start:silent http://localhost:3001/ cy:open",
@@ -40,7 +40,11 @@
   },
   "devDependencies": {
     "@babel/core": "^7.17.5",
+    "@cypress/code-coverage": "^3.9.12",
+    "babel-plugin-istanbul": "^6.1.1",
+    "customize-cra": "^1.0.0",
     "cypress": "^9.5.1",
+    "react-app-rewired": "^2.2.1",
     "react-test-renderer": "^16.12.0",
     "start-server-and-test": "^1.11.6"
   }

@@ -2,6 +2,9 @@
 describe('Visiting application', () => {
   
   beforeEach(() => {
+    cy.intercept("GET", "**/api/products", {
+      fixture: "product_index_response.json",
+    }).as("productIndex");
     cy.visit('/')
   })
 

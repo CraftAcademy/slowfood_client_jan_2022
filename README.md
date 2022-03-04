@@ -1,3 +1,9 @@
+
+[![Build Status](https://supracorona.semaphoreci.com/badges/slowfood_client_jan_2022/branches/master.svg?style=shields)](https://supracorona.semaphoreci.com/projects/slowfood_client_jan_2022)
+
+[![Test Coverage](https://api.codeclimate.com/v1/badges/7499e0f77a50af43d78f/test_coverage)](https://codeclimate.com/github/Supracorona/slowfood_client_jan_2022/test_coverage)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
